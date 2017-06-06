@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Tahoma, Verdana;
+}
+.fonte {
+	font-size: 12px;
+	color: #863518;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.fundo_imagens {
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.fonte_branca {
+	text-transform: uppercase;
+	color: #FFF;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.menu_superior {
+	font-size: 12px;
+	color: #863518;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.menu_lateral {
+	font-size: 12px;
+	color: #863518;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.linha_menu_lateral {
+	letter-spacing: 0px;
+	text-align: center;
+}
+.conteudo {
+	letter-spacing: 1px;
+	font-size: 11px;
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.conteudo_titulo {
+	font-size: 12px;
+	font-weight: bold;
+}
+.conteudo_textodiv {
+	width: 270px;
+	float: left;
+	position: relative;
+
+}
+.conteudo_fotodiv {
+	position: relative;
+	width: 310px;
+	float: right;
+}
+a:link {
+	text-decoration: none;
+	color: #863518;
+}
+a:visited {
+	color: #863518;
+	text-decoration: none;
+}
+a:active {
+	color: #863518;
+	text-decoration: none;
+}
+a:hover {
+	color: #863518;
+	text-decoration: underline;
+}
